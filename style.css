@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,55 +9,94 @@
     list-style: none;
 }
 
-.head{
+/* starting Header styling */
+
+.head {
     align-items: center;
     justify-content: space-between;
     display: flex;
 }
 
-.head h2 a{
+.head h2 a {
     color: black;
     font-size: 20px;
 }
 
-.head h2 a:hover{
-    text-decoration: underline;
-    text-shadow: 0px 0px 3px rgb(98, 103, 108);
-}
-
-.navbar ul{
+.navbar ul {
     margin-right: 200px;
 }
 
-.navbar li{
+.navbar li {
     display: inline;
 }
 
-.navbar li a{
+.navbar li a {
     margin: 30px;
     font-size: 16px;
     color: black;
     font-weight: 900;
 }
 
-.navbar li a:hover{
-    color: rgb(251, 185, 5);
-    transition: 0.3s ease-in-out;
+.navbar li a:hover {
+    color: rgb(158, 157, 157);
+    transition: all 0.3s ease;
+    text-decoration: underline;
 }
 
 button {
     position: absolute;
     background-color: black;
     margin: 0 0 0 88%;
-    padding: 3px;
+    padding: 4px;
+    width: 100px;
     border-radius: 5px;
 }
 
-button a{
+button a {
     color: grey;
 }
 
-button a:hover{
+button a:hover {
     color: white;
     transition: 0.4s ease;
 }
+
+/* Ending header styling  */
+
+/* starting about styling */
+
+main h1 {
+    margin: 50px 40px 20px 40px;
+    font-size: 35px;
+    font-family: math;
+    display: inline-block;
+}
+
+#p1 {
+    margin: 0px 0px 20px 40px;
+    color: rgb(118, 118, 118);
+    font-size: 20px;
+    display: block;
+}
+
+#p2 {
+    margin: 0px 700px 40px 40px;
+    font-size: 20px;
+    display: block;
+}
+
+#p3 {
+    margin: 0px 650px 50px 40px;
+    font-size: 20px;
+    display: block;
+}
+
+img{
+    position: absolute;
+    margin: 40px 0 0 60%;
+    height: 530px;
+    width: 440px;
+    border-radius: 10px;
+}
+
+/* ending about styling */
