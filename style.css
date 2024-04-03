@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    font-size: 16px;
+    font-family: josefin sans;
+    list-style: none;
+}
+
+.head{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.head h2 a{
+    color: black;
+    font-size: 20px;
+}
+
+.head h2 a:hover{
+    text-decoration: underline;
+    text-shadow: 0px 0px 3px rgb(98, 103, 108);
+}
+
+.navbar ul{
+    margin-right: 200px;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar li a{
+    margin: 30px;
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+}
+
+.navbar li a:hover{
+    color: rgb(251, 185, 5);
+    transition: 0.3s ease-in-out;
+}
+
+button {
+    position: absolute;
+    background-color: black;
+    margin: 0 0 0 88%;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+button a{
+    color: grey;
+}
+
+button a:hover{
+    color: white;
+    transition: 0.4s ease;
+}
