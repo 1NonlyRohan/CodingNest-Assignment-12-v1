@@ -112,7 +112,7 @@ img {
 
 .social-links {
     position: absolute;
-    margin: 120px 0 0 100px;
+    margin: 170px 0 0 100px;
 }
 
 .social-links .fa-xl {
@@ -127,5 +127,5 @@ img {
 }
 
 .topic-page {
-    margin: 0px 0px 0px 800px;
+    margin: 0px 0px 20px 800px;
 }
