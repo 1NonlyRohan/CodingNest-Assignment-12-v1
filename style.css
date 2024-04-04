@@ -35,10 +35,11 @@
     font-size: 16px;
     color: black;
     font-weight: 900;
+    font-size: 18px;
 }
 
 .navbar li a:hover {
-    color: rgb(158, 157, 157);
+    color: rgb(121, 8, 197);
     transition: all 0.3s ease;
     text-decoration: underline;
 }
@@ -128,6 +129,12 @@ img {
 
 .topic-page {
     margin: 0px 0px 20px 800px;
+}
+
+table td:hover {
+    color: rgb(7, 181, 187);
+    transition: 0.4s ease;
+    text-decoration: line-through;
 }
 
 /* Ending footer styling */
