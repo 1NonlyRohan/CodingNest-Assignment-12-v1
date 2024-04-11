@@ -92,7 +92,8 @@ main h1 {
 
 img {
     position: absolute;
-    margin: 120px 0 0 60%;
+    top: 180px;
+    right: 100px;
     height: 530px;
     width: 440px;
     border-radius: 10px;
@@ -132,7 +133,6 @@ img {
 table td:hover {
     color: rgb(7, 181, 187);
     transition: 0.4s ease;
-    text-decoration: line-through;
 }
 
 /* Ending footer styling */
